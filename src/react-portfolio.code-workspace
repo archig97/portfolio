@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Downloads/openemr 2"
+		},
+		{
+			"path": "../../../nn-backpropagation/spr25-backprop-archig97"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "react-portfolio"
+	}
+}
