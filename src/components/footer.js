@@ -1,7 +1,7 @@
 import './footer.css';
 
 import React from 'react';
-import { FaHome, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -25,7 +25,14 @@ const Footer = () => {
             </div>
                 
             </div>
-            <div className="right"></div>
+            <div className="right">
+                <p>Masters in Computer Science</p>
+                <p>North Carolina State University</p>
+                <div className="socials">
+                    <FaLinkedin size={20} style={{color : "#fff", marginRight: "1rem" }}/>
+                    <FaGithub size={20} style={{color : "#fff", marginRight: "1rem" }}/>
+                </div>
+            </div>
         </div>
       
     </div>
