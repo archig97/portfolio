@@ -1,0 +1,64 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover; /*sclases image proportionally and covers entire element */
+    background-position: center;
+    object-fit: cover;
+}
+
+/*how to create an overlay */
+
+.page-center{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.page-center .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.page-center .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.page-center .content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   
+}
+
+.content .btn{
+    margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width:640px){
+
+    .page-center .content h1{
+        font-size: 3rem;
+        
+    }
+    
+    .page-center .content p{
+        font-size: 1.4rem;
+        
+       
+    }
+
+}
