@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "esrecurse": "^4.3.0"
+    "esrecurse": "^4.3.0",
+    "react-dev-utils": "^12.0.1"
   }
 }
